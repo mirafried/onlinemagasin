@@ -1,0 +1,195 @@
+body{
+    background-color: whitesmoke;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-family: calibri, sans-serif;
+}
+
+/*tekst*/
+h2{
+    font-family: bitter, serif;    
+}
+
+h3{
+    font-family: bitter, serif;
+}
+
+h4{
+    font-size: 18pt;
+    font-family: bitter, serif;
+}
+
+
+/* links */
+a:link{
+    text-decoration: none;
+    font-style: normal;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none; 
+    font-style: normal;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/*HEADER*/
+
+header{
+
+    height: 50px;
+    display:flex;
+    justify-content: space-between;
+    padding-right:5px;
+    padding-left:5px;
+    padding-top:1%;
+    padding-bottom:1%;
+    overflow:hidden;
+    margin-left: 5px;
+
+    }
+    
+header > #søg {
+    width: 50px;
+    height: 50px;
+    margin-right: 5%;
+}    
+
+
+/*Navigation*/
+
+nav{
+    height: 50px;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    overflow: hidden;
+    background-color: #A9B7DE;
+    }
+
+nav> a{
+    font-size: 14pt;
+    text-decoration:none;
+    color:black;
+    padding:10px;
+    letter-spacing:1pt;
+    font-family: bitter, serif;
+    }
+
+/*Main*/
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
+.container > div{
+    border-style: groove;
+    border-width: 2px;
+    border-color: rgb(212, 212, 212);
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 30%;
+    height: 400px;
+    background-color: #f0f0f0;
+}
+
+.container > div > img{
+    max-width: 100%;
+    padding-top: 10px;
+}
+
+#artikel1{
+    width: 60%;
+    height: 300px;
+    column-count: 2;
+    column-gap: 50px;
+}
+
+#artikel1 > a > i {
+    float: right;
+}
+
+#ekstra{
+    width: 35%;
+    height: 300px;
+}
+
+/*Artikelsiden*/
+
+.artikelcontainer{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
+.artikelcontainer > div{
+    border-style: groove;
+    border-width: 2px;
+    border-color: rgb(212, 212, 212);
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 30%;
+    height: 400px;
+    background-color: #f0f0f0;
+}
+
+.artikelcontainer > div > img{
+    max-width: 100%;
+}
+
+
+/*Artikler*/
+
+#artikel{
+    margin: 10px 300px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+/*billeder til artikler*/
+
+#knossos, #klapstol{
+    margin: 10px;
+}
+
+#knossos, #klapstol > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#knossos, #klapstol > p{
+    margin-left: 200px;
+    font-style: italic;
+}
+
+#valhyr > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+#valhyr > p{
+    margin-left: 200px;
+    font-style: italic;
+}
+
+#guldgubber > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+#guldgubber > p{
+    margin-left: 200px;
+    font-style: italic;
+}
